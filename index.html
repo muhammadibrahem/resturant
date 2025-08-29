@@ -11,8 +11,494 @@
         <link rel="stylesheet" href="responsive.css">
     </head>
     <body>
-        <script src="assets/js/aos.js"></script>
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <script src="assets/js/main.js"></script>
-        <body>
-        </html>
+        <!-- preloader -->
+        <!-- <div class="preloader"></div> -->
+        <!--
+                page
+                wrapper
+                -->
+        <div class="page-wrapper">
+            <header class="header">
+                <div class="container">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <button type="button" class="menu-btn">
+                        <span class="line line-1"></span>
+                        <span class="line line-2"></span>
+                        <span class="line line-3"></span>
+                    </button>
+                    <nav class="menu">
+                        <ul>
+                            <li>
+                                <a href="#hero">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#rest-menu">Menu</a>
+                            </li>
+                            <li>
+                                <a href="#team">Team</a>
+                            </li>
+                            <li>
+                                <a href="#testimonials">Testimonials</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Conatct</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <!-- hero-section -->
+            <section class="hero" id="hero">
+                <div class="hero-bg"></div>
+                <div class="container">
+                    <p data-aos="fade-up" data-aos-delay="50">Welcome to Apasara</p>
+                    <h1 data-aos="fade-up" data-aos-delay="500">Make your party with delecious dishes</h1>
+                    <div class="hero-btn-wrapper" data-aos="fade-up" data-aos-delay="1000">
+                        <a href="#rest-menu" class="btn btn-1">
+                            <span>
+                                <span data-text="view menu">view menu</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!--
+                            about
+                            section
+                            -->
+            <section class="about" id="about">
+                <div class="container">
+                    <div class="about-images">
+                        <div class="image-box">
+                            <img
+                                src="images/about-1.jpg"
+                                alt="aboutimage"
+                                width="300px"
+                                height="400px"
+                            >
+                        </div>
+                        <div class="image-box">
+                            <img
+                                src="images/about-2.jpg"
+                                alt="aboutimage"
+                                width="300px"
+                                height="500px"
+                            >
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <div class="section-header">
+                            <h2 class="title">Our story</h2>
+                        </div>
+                        <div class="about-text">
+                            <p>
+                                Lorem ipsum,
+dolor sit amet consectetur adipisicing elit. Reiciendis mollitia quam quidem odit aliquam illo ex dolores voluptatum assumenda ducimus asperiores iure voluptatem,
+consectetur totam nihil,
+dicta et. Odit,
+perspiciatis?
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit,
+amet consectetur adipisicing elit. Ab assumenda,
+officiis quaerat eius culpa similique mollitia saepe facere ipsam suscipit,
+numquam,
+obcaecati repellendus aspernatur voluptatibus impedit sed recusandae inventore hic !
+                            </p>
+                        </div>
+                        <div class="about-person">
+                            <img src="/images/founder.jpg" alt="image">
+                            <div>
+                                <h3>John Doe</h3>
+                                <p>Founder & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--
+                                    stats
+                                    section
+                                    -->
+                <section class="stats">
+                    <div class="container">
+                        <div class="stats-items">
+                            <div class="stats-item">
+                                <span>20+</span>
+                                <p>years of experience</p>
+                            </div>
+                            <div class="stats-item">
+                                <span>50+</span>
+                                <p>special dishes</p>
+                            </div>
+                            <div class="stats-item">
+                                <span>30+</span>
+                                <p>passionate chefs</p>
+                            </div>
+                            <div class="stats-item">
+                                <span>100+</span>
+                                <p>awards won</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--
+                                        rest-menu
+                                        section
+                                        -->
+                <section class="rest-menu" id="rest-menu">
+                    <div class="container">
+                        <div class="section-header">
+                            <h2 class="title">Our Menu</h2>
+                        </div>
+                        <div class="tabs rest-menu-tabs">
+                            <div class="tabs-list">
+                                <button type="button" class="tabs-btn active" data-target="#breakfast">Breakfast</button>
+                                <button type="button" class="tabs-btn" data-target="#lunch">Lunch</button>
+                                <button type="button" class="tabs-btn" data-target="#dinner">Dinner</button>
+                            </div>
+                            <div class="tabs-content">
+                                <div class="tabs-panel active" id="breakfast">
+                                    <div class="rest-menu-list">
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-1.jpg" alt="img">
+                                            <h4>fresh juice</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-2.jpg" alt="img">
+                                            <h4>sandwich</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-3.jpg" alt="img">
+                                            <h4>mixed fruits</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-4.jpg" alt="img">
+                                            <h4>banana bread</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-5.jpg" alt="img">
+                                            <h4>oatmeal</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-6.jpg" alt="img">
+                                            <h4>plain bread</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tabs-panel" id="lunch">
+                                    <div class="rest-menu-list">
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-1.jpg" alt="img">
+                                            <h4>fresh juice</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-2.jpg" alt="img">
+                                            <h4>sandwich</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-3.jpg" alt="img">
+                                            <h4>mixed fruits</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-4.jpg" alt="img">
+                                            <h4>banana bread</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-5.jpg" alt="img">
+                                            <h4>oatmeal</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-6.jpg" alt="img">
+                                            <h4>plain bread</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tabs-panel" id="dinner">
+                                    <div class="rest-menu-list">
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-1.jpg" alt="img">
+                                            <h4>fresh juice</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-2.jpg" alt="img">
+                                            <h4>sandwich</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-3.jpg" alt="img">
+                                            <h4>mixed fruits</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-4.jpg" alt="img">
+                                            <h4>banana bread</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-5.jpg" alt="img">
+                                            <h4>oatmeal</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                        <div class="rest-menu-item">
+                                            <img src="images/menu-6.jpg" alt="img">
+                                            <h4>plain bread</h4>
+                                            <div class="price">$40</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- team start -->
+                <section class="team" id="team">
+                    <div class="container">
+                        <div class="section-header">
+                            <h2 class="title">meet our team</h2>
+                        </div>
+                        <div class="team-list">
+                            <div class="team-item">
+                                <div class="image-box">
+                                    <img
+                                        src="images/team-1.jpg"
+                                        alt="image"
+                                        width="300px"
+                                        height="300px"
+                                    >
+                                </div>
+                                <div class="info">
+                                    <h3>john doe</h3>
+                                    <p>head chef</p>
+                                </div>
+                            </div>
+                            <div class="team-item">
+                                <div class="image-box">
+                                    <img
+                                        src="images/team-2.jpg"
+                                        alt="image"
+                                        width="300px"
+                                        height="300px"
+                                    >
+                                </div>
+                                <div class="info">
+                                    <h3>john doe</h3>
+                                    <p>executive chef</p>
+                                </div>
+                            </div>
+                            <div class="team-item">
+                                <div class="image-box">
+                                    <img
+                                        src="images/team-3.jpg"
+                                        alt="image"
+                                        width="300px"
+                                        height="300px"
+                                    >
+                                </div>
+                                <div class="info">
+                                    <h3>john doe</h3>
+                                    <p>general manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="testimonials" id="testimonials">
+                    <div class="container">
+                        <div class="section-header">
+                            <h2>what our customer say</h2>
+                        </div>
+                        <div class="testimonials-content">
+                            <div class="testimonials-image">
+                                <img src="images/testimonials-img.jpg" alt="image">
+                            </div>
+                            <div class="swiper testimonials-slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide testimonials-item">
+                                        <div class="testimonials-rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="testimonials-text">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat asperiores deleniti commodi vel distinctio! Nam ab blanditiis adipisci, voluptatibus ratione quisquam mollitia error aut laboriosam excepturi natus corporis consectetur."</div>
+                                        <div class="testimonials-author">
+                                            <img src="images/testimonials-1.jpg" alt="image">
+                                            <div class="info">
+                                                <h3>john Doe</h3>
+                                                <p>regular customer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide testimonials-item">
+                                        <div class="testimonials-rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="testimonials-text">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat asperiores deleniti commodi vel distinctio! Nam ab blanditiis adipisci, voluptatibus ratione quisquam mollitia error aut laboriosam excepturi natus corporis consectetur."</div>
+                                        <div class="testimonials-author">
+                                            <img src="images/testimonials-2.jpg" alt="image">
+                                            <div class="info">
+                                                <h3>john Doe</h3>
+                                                <p>regular customer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide testimonials-item">
+                                        <div class="testimonials-rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="testimonials-text">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat asperiores deleniti commodi vel distinctio! Nam ab blanditiis adipisci, voluptatibus ratione quisquam mollitia error aut laboriosam excepturi natus corporis consectetur."</div>
+                                        <div class="testimonials-author">
+                                            <img src="images/testimonials-3.jpg" alt="image">
+                                            <div class="info">
+                                                <h3>john Doe</h3>
+                                                <p>regular customer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination testimonials-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- timing section -->
+                <section class="timing" id="timing">
+                    <div class="timing-bg"></div>
+                    <div class="conatiner">
+                        <div class="section-header">
+                            <h2 class="title">opening hours</h2>
+                        </div>
+                        <div class="timing-text" style="margin-left:244px;">
+                            Monday-sunday :
+                            <span>11:00 am- 11:00 pm</span>
+                        </div>
+                    </div>
+                </section>
+                <!-- contact section -->
+                <section class="contact" id="contact">
+                    <div class="container">
+                        <div class="section-header">
+                            <h2 class="title">contact us</h2>
+                        </div>
+                        <div class="contact-items">
+                            <div class="contact-item">
+                                <i class="fa-solid fa-map-marker-alt"></i>
+                                <h3>location</h3>
+                                <p>XYZ city, gujar khan , Rawalpindi</p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <h3>email us</h3>
+                                <p>booking@gmail.com</p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fa-solid fa-phone"></i>
+                                <h3>talk to us</h3>
+                                <p>+92 330 9245704</p>
+                            </div>
+                        </div>
+                        <div class="contact-forms">
+                            <h3>send us message</h3>
+                            <form action="" id="form">
+                                <div class="form-item">
+                                    <input type="text" placeholder="Name" required>
+                                </div>
+                                <div class="form-item">
+                                    <input type="text" placeholder="Email" required>
+                                </div>
+                                <div class="form-item">
+                                    <input type="text" placeholder="Phone" required>
+                                </div>
+                                <div class="form-item">
+                                    <input type="text" placeholder="Subject" required>
+                                </div>
+                                <div class="form-item">
+                                    <textarea placeholder="Message" required></textarea>
+                                </div>
+                                <div class="form-item form-btn">
+                                    <button type="submit" class="btn btn-1">
+                                        <span>
+                                            <span data-text="send message">send message</span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                <footer class="footer">
+                    <div class="container">
+                        <div class="footer-logo">
+                            <img src="images/logo.png" alt="images">
+                        </div>
+                        <div class="footer-social">
+                            <a href="#">
+                                <img
+                                    src="images/logo-facebook.svg"
+                                    alt=""
+                                    width="20px"
+                                    height="20px"
+                                >
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="images/logo-instagram.svg"
+                                    alt=""
+                                    width="20px"
+                                    height="20px"
+                                >
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="images/logo-tiktok.svg"
+                                    alt=""
+                                    width="20px"
+                                    height="20px"
+                                >
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="images/logo-youtube.svg"
+                                    alt=""
+                                    width="20px"
+                                    height="20px"
+                                >
+                            </a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <script src="assets/js/aos.js"></script>
+            <script src="assets/js/swiper-bundle.min.js"></script>
+            <script src="assets/js/main.js"></script>
+            <body>
+            </html>
